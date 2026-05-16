@@ -32,3 +32,6 @@ yarn-error.log*
 # Geçici dosyalar
 *.tmp
 *.temp
+
+node_modules/
+backend/node_modules/
