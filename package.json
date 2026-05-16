@@ -2,9 +2,12 @@
   "name": "cilesiz-karsit-dental",
   "version": "1.0.0",
   "description": "Dental Clinic Website with Backend",
+  "engines": {
+    "node": ">=20.0.0"
+  },
   "scripts": {
     "start": "cd backend && npm start",
-    "build": "cd backend && npm install",
+    "build": "cd backend && npm install && npm rebuild sqlite3 --build-from-source",
     "install": "cd backend && npm install"
   }
 }
